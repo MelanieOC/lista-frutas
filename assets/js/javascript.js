@@ -7,5 +7,5 @@ function agregar() {
     resultado += (Number(i)+1) + '. ' + listaFrutas[i].slice(0,1).toUpperCase() + listaFrutas[i].slice(1) + '<br>';
   }//todo lo agregado, la primera letra es en mayuscula
   document.getElementById('resultado').innerHTML = resultado; //se imprime la lista
-  document.getElementById('fruta').value = '';//la caja de texto vuelve a estar en blanco
+  fruta = '';//la caja de texto vuelve a estar en blanco
 }
